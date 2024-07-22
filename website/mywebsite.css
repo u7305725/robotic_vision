@@ -1,0 +1,434 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+#cssbutton {
+    float: right;
+    margin-right: 10%;
+}
+
+.navi1 {
+    background-color: #333; /* 深色背景 */
+    overflow: hidden; /* 清除浮动 */
+    font-family: Arial, sans-serif; /* 字体样式 */
+    width: 100%; /* 占满整个宽度 */
+    margin: 0; /* 无外边距 */
+    padding: 0; /* 无内边距 */
+}
+
+.navi1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navi1 li {
+    float: left;
+}
+
+.navi1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navi1 li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+h1 {
+    font-family: serif, Helvetica, Tahoma, Arial;
+    font-size: 2em; /* 标题字体大小 */
+    text-align: center; /* 标题居中 */
+    background-color: #f1f1f1; /* 标题背景颜色 */
+    margin: 0; /* 去除标题外边距 */
+    padding: 20px; /* 标题内边距 */
+}
+
+a:link {
+    color: blue;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: red;
+}
+
+.header {
+    float: left;
+}
+
+.bodypart {
+    font-size: 17px;
+}
+
+#contact_online {
+    margin-left: 8%;
+}
+
+#contact_online input {
+    outline-style: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 26px 28px;
+    width: 620px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+    word-break: break-all;
+}
+
+#contact_online video {
+    float: right;
+}
+
+.navi0 {
+    background-color: #333; /* 深色背景 */
+    overflow: hidden; /* 清除浮动 */
+    font-family: Arial, sans-serif; /* 字体样式 */
+    width: 100%; /* 占满整个宽度 */
+    margin: 0; /* 无外边距 */
+    padding: 0; /* 无内边距 */
+}
+
+.navi0 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navi0 li {
+    float: left;
+}
+
+.navi0 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navi0 li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.navi2 {
+    margin-left: 3%;
+}
+
+.navi2 a {
+    margin-right: 1em;
+}
+
+#contact_online #message input {
+    padding: 50px 28px;
+}
+
+#button {
+    margin-top: 3%;
+}
+
+#button input {
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 2%;
+    background-color: rgb(57, 221, 196);
+}
+.product-parameters {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.product-parameters table {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.product-parameters th, 
+.product-parameters td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-parameters th {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.product-parameters thead th {
+    font-size: 1.5em;
+}
+
+.product-parameters tbody tr:nth-child(odd) td {
+    background-color: #f9f9f9;
+}
+
+.product-parameters tfoot td {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+
+#myintro2 {
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%; 
+}
+
+
+#myintro {
+    padding-left: 4%;
+    padding-top: 5%;
+    margin-bottom: 1%;
+}
+
+h2 {
+    margin-left: 10%;
+    font-family: serif, Helvetica, Tahoma, Arial;
+    font-size: 23px;
+}
+
+h3 {
+    margin-left: 10%;
+    font-family: serif, Helvetica, Tahoma, Arial;
+    font-size: 17px;
+}
+
+#mypic1 {
+    width: 35%;
+    float: right;
+    padding-right: 8%;
+}
+
+#mypic2 {
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+#mypic3 {
+    border: 5px solid;
+    width: 35%;
+    float: right;
+    margin-right: 5%;
+}
+.productintro-row{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.productintro-row img {
+    max-width: 48%;
+    height: auto;
+}
+
+.introproducts p {
+    margin-left: 28%;
+    margin-bottom: 7%;
+}
+
+li {
+    display: inline-block;
+}
+
+#sourcelogtable {
+    margin-left: 2%;
+    margin-top: 5%;
+    border: solid 5px;
+    font-size: 20px;
+}
+
+aside {
+    text-align: center;
+}
+
+td, th {
+    border: solid 3px;
+}
+
+article {
+    overflow: scroll;
+    border-color: black;
+    border-width: 2px;
+    margin-left: 25%;
+    font-family: monospace;
+    width: 50%;
+    background-color: white;
+}
+
+.myposts {
+    height: 1200px;
+}
+
+.myposts h3 {
+    color: teal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: Georgia;
+}
+
+.myposts h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #71e0c6e6;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.myposts img {
+    margin-left: 20%;
+    width: 60%;
+}
+
+.myposts p {
+    border-bottom: 3px solid rgba(24, 104, 37, 0.5);
+    color: rgba(24, 104, 37, 0.5);
+    font-size: 22px;
+    padding-bottom: 30px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: Georgia;
+}
+
+#imggallery {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 20%;
+}
+
+div.gallery:hover {
+    border: 3px solid black;
+}
+
+div.gallery img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.description {
+    margin-top: auto;
+    text-align: center;
+}
+
+.introPenguins h2 {
+    border: 5px dashed rgb(203, 177, 25);
+    width: 80%;
+}
+
+.introPenguins h3 {
+    border: 4px dashed rgb(227, 226, 222);
+    width: 80%;
+}
+
+#penguins {
+    margin-left: 20%;
+    width: 60%;
+    height: 750px;
+}
+
+#comic {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 20%;
+}
+
+#comic .col {
+    border: 3px solid #000000;
+    margin: 5px;
+}
+
+#comic img {
+    width: 100%;
+}
+
+#comic p {
+    font-size: 5px;
+}
+
+.body {
+    margin-left: 13%;
+}
+
+.body p {
+    margin-top: 3%;
+}
+
+.body img {
+    margin: 5%;
+    border: 3px solid #000000;
+}
+
+#network {
+    margin-left: 25%;
+}
+
+.video-bg {
+    position: relative;
+    height: 1000px;
+}
+
+.video-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: #000000 solid 5px;
+}

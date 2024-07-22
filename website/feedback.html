@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact with us!</title>
+    <h1>Contact with us!</h1>
+    <link rel="stylesheet" type="text/css" href="mywebsite.css" title="style1">
+    <!-- From website: https://www.thesitewizard.com/javascripts/change-style-sheets.shtml-->
+    <link rel="alternate stylesheet" type="text/css" href="mywebsite2.css" title="style2">
+    <script src="newcss.js"></script>
+    <div id = "cssbutton">
+        <button type="button" onclick="switch_style('style1');return false;" name="theme" value="style1" id="style1">change to appearance css style1</button>
+        <button type="button" onclick="switch_style('style2');return false;" name="theme" value="style2" id="style2">change to appearance css style2</button>
+    </div>
+    
+        <section class = "navi0">
+            <ul>
+                <li><a href="index.html">
+                    >Index
+                </a></li>
+                <li><a href="feedback.html">
+                    >Contact us
+                </a></li>
+            </ul>
+        </section>
+        <div id = "contact_online">
+            <video autoplay loop muted width="650" height="390" src="pic/shaking.MOV"></video>
+
+            <form enctype="text/plain" action = "mailto:bendezhang@yahoo.com.au">
+               
+                <h3>Your subject</h3>
+                <input type = "text" name ="subject"  placeholder="your subject here">
+
+                <div id = "message">
+                    <h3>Your message</h3>
+                    <input type = "text" name = "body" placeholder="your message here">
+                </div>
+            
+                <div id = "button">
+                        <input type = "submit" value="Submit">
+                        <input type = "reset" value = "Clear">
+                </div>
+                <hr>
+                
+            </form>
+            <div id="mymessage">
+                <h2>Or call us on phone! </h2>
+                <p>04</p>
+            </div>
+            <button onclick="fuc1()" id = "jsbut1">Hide</button>
+        </div>
+
+          <footer>
+            Simplest Entropy Ltd Pty copyright
+          </footer>
+          
+    <script src = "script.js"></script>
+</body>
+</html>
+    
